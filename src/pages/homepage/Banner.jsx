@@ -1,9 +1,11 @@
 import banner from "../../assets/pngwing 1-Dgv9M15h.png"
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 min-h-[70vh] rounded-2xl my-8">
-      <div className="hero-content flex-col lg:flex-row-reverse  justify-between md:w-10/12  ">
-        <img className="w-[318px] h-[394px]" src={banner} alt="" />
+    <div className="hero bg-base-200 min-h-[70vh] rounded-2xl w-11/12 my-8   mx-auto  ">
+      <div className="hero-content flex-col lg:flex-row-reverse w-full  md:justify-between md:p-10  ">
+       <div>
+         <img className="w-[350px] h-[350px]" src={banner} alt="" />
+       </div>
         <div>
           <h1 className="text-5xl font-bold text-[#131313]">Books to freshen up <br /> your bookshelf</h1>
           
