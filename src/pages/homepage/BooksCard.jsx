@@ -4,7 +4,7 @@ const BooksCard = ({ book }) => {
   return (
     <div className="mt-5">
       <div className="card bg-base-100 w-96 shadow-sm p-5">
-        <div className="badge badge-secondary my-5">{book?.category || "NEW"}</div>
+       
         <figure>
           <img
           className="w-[180px] h-[250px]"
