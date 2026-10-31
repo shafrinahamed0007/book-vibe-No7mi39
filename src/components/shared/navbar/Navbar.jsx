@@ -47,8 +47,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <div className="flex gap-2">
-            <button className="btn btn-success text-white ">Signin</button>
-            <button className="btn btn-warning text-white">Signup</button>
+            <button className="btn bg-[#0c2e2f] text-[#abe800]">Signin</button>
+            <button className="btn bg-[#0d2d3c] text-[#54bafe]">Signup</button>
           </div>
         </div>
         </div>

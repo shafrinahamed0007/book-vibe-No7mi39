@@ -3,7 +3,7 @@ import { IoMdStarOutline } from "react-icons/io";
 const BooksCard = ({ book }) => {
   return (
     <div className="mt-5">
-      <div className="card bg-base-100 w-96 shadow-sm p-5">
+      <div className="card  w-96 shadow-sm shadow-white p-5">
        
         <figure>
           <img
